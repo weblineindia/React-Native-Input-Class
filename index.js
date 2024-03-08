@@ -36,7 +36,7 @@ class InputClass extends Component {
       }
     } else {
       this.props.onChangeText && this.props.onChangeText(value);
-    }
+    } 
   };
 
   onEndEditing = (e) => {
